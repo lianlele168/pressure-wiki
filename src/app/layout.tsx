@@ -37,9 +37,11 @@ export default function RootLayout({
               Pressure Wiki
             </a>
             <nav className="flex items-center space-x-6 text-sm font-medium">
-              <a href="/codes" className="hover:text-cyan-400">Codes</a>
-              <a href="/tier-list" className="hover:text-cyan-400">Tier List</a>
-              <a href="/monster-index" className="text-emerald-400 hover:text-emerald-300 font-bold">👾 Monster Guide</a>
+              <a href="/codes" className="hover:text-red-400">Codes</a>
+              <a href="/tier-list" className="hover:text-red-400">Tier List</a>
+              <a href="/monster-index" className="hover:text-red-400">👾 Monsters</a>
+              <a href="/badge-guide" className="hover:text-red-400">🏅 Badges</a>
+              <a href="/beginner-guide" className="hover:text-red-400">📖 Guide</a>
               <a href="https://robloxwikihub.com" className="text-xs text-slate-400 hover:text-slate-200 bg-slate-800 px-3 py-1.5 rounded-full">Roblox Wiki Hub</a>
             </nav>
           </div>
