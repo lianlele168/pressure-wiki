@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   title: "Pressure Wiki — Monster Index, Codes & Survival Guide",
   description: "The definitive Roblox Pressure guide — Monster & Entity Index, Active Kroner Codes, Badge Guide, and Room Survival Strategy.",
   keywords: ["Pressure Roblox", "Pressure codes", "Pressure wiki", "Pressure monsters", "Pressure guide"],
-  alternates: {
-    canonical: "https://pressure.robloxwikihub.com",
-  },
   robots: {
     index: true,
     follow: true,
@@ -37,6 +34,7 @@ export default function RootLayout({
               Pressure Wiki
             </a>
             <nav className="flex items-center space-x-6 text-sm font-medium">
+              <a href="/calculator" className="text-red-400 hover:text-red-300 font-bold">⚡ Calculator</a>
               <a href="/codes" className="hover:text-red-400">Codes</a>
               <a href="/tier-list" className="hover:text-red-400">Tier List</a>
               <a href="/monster-index" className="hover:text-red-400">👾 Monsters</a>
