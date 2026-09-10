@@ -1,45 +1,11 @@
 'use client';
 import { useState } from 'react';
-
-const MONSTERS = [
-  {
-    name: "Eyefestation",
-    danger: "Extreme",
-    badgeColor: "bg-red-950 text-red-400 border-red-800",
-    audioCue: "Deep green glow underwater, high-pitched hum",
-    strategy: "Turn camera away instantly! Do NOT make eye contact with the green luminescent eyes through underwater windows.",
-    spawnRooms: "Rooms 20-99 (Sub-aquatic glass corridors)"
-  },
-  {
-    name: "Pandemonium",
-    danger: "Critical",
-    badgeColor: "bg-purple-950 text-purple-400 border-purple-800",
-    audioCue: "Aggressive metal clanging, loud mechanical screeching",
-    strategy: "Enter a locker immediately. Complete the balance minigame by keeping your cursor inside the moving safe zone.",
-    spawnRooms: "Randomly after Room 30"
-  },
-  {
-    name: "Search Party (Angler Variant)",
-    danger: "High",
-    badgeColor: "bg-amber-950 text-amber-400 border-amber-800",
-    audioCue: "Flickering lights, low rumbles in ventilation",
-    strategy: "Break line of sight behind heavy obstacles or dive into side vents before it passes through.",
-    spawnRooms: "Rooms 10-100"
-  },
-  {
-    name: "Wall Dweller",
-    danger: "Moderate",
-    badgeColor: "bg-blue-950 text-blue-400 border-blue-800",
-    audioCue: "Faint wet footsteps behind the player",
-    strategy: "Turn around periodically. Looking directly at it causes it to stop and disintegrate into edible meat.",
-    spawnRooms: "Dark hallway corridors"
-  }
-];
+import { MONSTERS_DATA } from '@/data/wikiData';
 
 export default function MonsterIndexPage() {
   const [filter, setFilter] = useState("All");
 
-  const filteredMonsters = filter === "All" ? MONSTERS : MONSTERS.filter(m => m.danger === filter);
+  const filteredMonsters = filter === "All" ? MONSTERS_DATA : MONSTERS_DATA.filter(m => m.danger === filter);
 
   return (
     <div className="space-y-8">
