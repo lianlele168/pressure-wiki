@@ -14,6 +14,24 @@ export default function MonsterIndexPage() {
         <p className="text-slate-400 text-sm mt-1">Complete survival strategies, audio cues, and counter-tactics for every entity in Roblox Pressure.</p>
       </div>
 
+      {/* Monster Screenshot Showcase */}
+      <div className="relative rounded-2xl overflow-hidden border border-cyan-900/40 shadow-2xl bg-slate-900/60 aspect-video max-w-4xl mx-auto my-6">
+        <img
+          src="/images/pressure-angler-encounter.webp"
+          alt="Roblox Pressure Bioluminescent Angler Encounter in Flooded Corridors"
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent p-4 flex items-center justify-between">
+          <div className="text-xs sm:text-sm text-slate-200 font-medium">
+            <span className="text-cyan-400 font-bold">Locker Perspective</span> — Angler rush evasion & sonar scream triangulation
+          </div>
+          <span className="px-2.5 py-1 bg-cyan-500/20 text-cyan-300 text-[11px] rounded-lg border border-cyan-500/30">
+            Audio Threat: Critical
+          </span>
+        </div>
+      </div>
+
       <div className="flex space-x-2">
         {["All", "Critical", "Extreme", "High", "Moderate"].map(level => (
           <button
