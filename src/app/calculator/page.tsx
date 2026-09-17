@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Pressure Calculator: Room Survival Odds & Monster Threat Simulator',
   description: 'Interactive Roblox Pressure calculator. Calculate door 1-100 entity encounter odds (Angler, Pandemonium, Eyefestation), test locker survival reactions, and simulate run outcomes.',
   alternates: {
-    canonical: 'https://pressure.robloxwikihub.com/calculator/',
+    canonical: 'https://pressure.robloxwikihub.com/calculator',
   },
   openGraph: {
     title: 'Roblox Pressure Survival Odds & Monster Calculator',
     description: 'Calculate entity encounter chances and locker minigame survival odds in Roblox Pressure.',
-    url: 'https://pressure.robloxwikihub.com/calculator/',
+    url: 'https://pressure.robloxwikihub.com/calculator',
     type: 'website',
   },
 };
@@ -22,7 +22,7 @@ export default function CalculatorPage() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'Roblox Pressure Room Survival Odds & Monster Threat Calculator',
-    url: 'https://pressure.robloxwikihub.com/calculator/',
+    url: 'https://pressure.robloxwikihub.com/calculator',
     applicationCategory: 'GameApplication',
     operatingSystem: 'All',
     offers: {

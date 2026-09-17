@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { ShieldAlert, Volume2, Compass, HeartPulse, HelpCircle, Zap } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/beginner-guide',
+  },
+
   title: 'Roblox Pressure Beginner Guide — Room 1 to 100 Complete Survival Manual',
   description: 'Ultimate survival manual for Roblox Pressure. Master room navigation from Door 1 to 100, audio cues for Angler variants, locker minigame strategies, and Searchlights boss guide.',
   keywords: ['roblox pressure guide', 'pressure room 1 to 100', 'pressure pandemonium strategy', 'pressure eyefestation counter', 'pressure beginner guide']

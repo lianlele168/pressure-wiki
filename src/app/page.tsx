@@ -1,15 +1,14 @@
-'use client';
-import { useState } from 'react';
+import type { Metadata } from 'next';
 import AuthorCard from '@/components/AuthorCard';
+import CopyCodeButton from '@/components/CopyCodeButton';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 
 export default function HomePage() {
-  const [copied, setCopied] = useState('');
-
-  const copy = (code: string) => {
-    navigator.clipboard.writeText(code);
-    setCopied(code);
-    setTimeout(() => setCopied(''), 2000);
-  };
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -152,12 +151,7 @@ export default function HomePage() {
             <span className="font-mono text-white text-lg font-bold">ModifiersAndMovies</span>
             <span className="ml-3 text-xs text-emerald-400 bg-emerald-950/80 border border-emerald-800 px-2 py-0.5 rounded">✓ Active</span>
           </div>
-          <button
-            onClick={() => copy('ModifiersAndMovies')}
-            className="text-xs bg-red-600 hover:bg-red-500 text-white font-bold px-4 py-2 rounded-lg transition"
-          >
-            {copied === 'ModifiersAndMovies' ? '✓ Copied!' : 'Copy'}
-          </button>
+          <CopyCodeButton code="ModifiersAndMovies" />
         </div>
         <p className="text-xs text-slate-500">Rewards: Free Kroner coins & XP boost</p>
       </section>
