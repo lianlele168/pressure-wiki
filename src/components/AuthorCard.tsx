@@ -14,7 +14,7 @@ export default function AuthorCard({
   role = 'Abyssal Blacksite Containment Specialist',
   experience = '250+ Expeditions & Room 100 Verified',
   patchVersion = 'Update v1.8 Verified',
-  lastUpdated = 'September 2026',
+  lastUpdated = '',
   editorialNote = 'All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-red-500/10 text-red-300 border border-red-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-slate-400">
-            Updated: <strong className="text-slate-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 

@@ -2,7 +2,7 @@ export default function CodesPage() {
   return (
     <div className="space-y-6">
       <div className="border-b border-slate-800 pb-4">
-        <h1 className="text-3xl font-black text-white">Pressure Codes (September 2026)</h1>
+        <h1 className="text-3xl font-black text-white">Pressure Codes </h1>
         <p className="text-slate-400 text-sm mt-1">Tested and verified active redeem codes for Pressure.</p>
       </div>
 

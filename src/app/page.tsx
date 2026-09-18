@@ -13,7 +13,7 @@ export default function HomePage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    dateModified: '2026-09-15',
+
     author: {
       '@type': 'Person',
       name: 'Dante Vance',
@@ -70,7 +70,6 @@ export default function HomePage() {
             role="Abyssal Blacksite Containment Specialist"
             experience="250+ Expeditions & Room 100 Verified"
             patchVersion="Update v1.8 Verified"
-            lastUpdated="September 2026"
             editorialNote="All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs."
           />
         </div>

@@ -4,7 +4,7 @@ import MonsterIndexClient from './MonsterIndexClient';
 import { MONSTERS_DATA } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Roblox Pressure Monster & Entity Index (September 2026) | Survival Guide',
+  title: 'Roblox Pressure Monster & Entity Index | Survival Guide',
   description: 'Complete survival guide and entity index for Roblox Pressure. Entity audio cues, room triggers, and angler evasion tactics.',
   alternates: {
     canonical: '/monster-index',
@@ -42,7 +42,7 @@ export default function MonsterIndexPage() {
       />
       <div className="border-b border-slate-800 pb-4">
         <h1 className="text-3xl font-black text-white">Pressure Monster & Entity Survival Guide</h1>
-        <p className="text-slate-400 text-sm mt-1">Complete survival strategies, audio cues, and counter-tactics for every entity in Roblox Pressure (Updated September 2026).</p>
+        <p className="text-slate-400 text-sm mt-1">Complete survival strategies, audio cues, and counter-tactics for every entity in Roblox Pressure (Updated ).</p>
       </div>
 
       <MonsterIndexClient />
