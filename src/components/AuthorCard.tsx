@@ -10,9 +10,9 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Dante Vance',
-  role = 'Abyssal Blacksite Containment Specialist',
-  experience = '250+ Expeditions & Room 100 Verified',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = 'Update v1.8 Verified',
   lastUpdated = '',
   editorialNote = 'All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs.',
