@@ -152,11 +152,26 @@ export const MONSTERS_DATA: MonsterItem[] = [
 ];
 
 export const ACTIVE_CODES: CodeItem[] = [
-  { code: 'sled dolphin', reward: '500 Kroner + 1 Revive', status: 'Active' },
-  { code: 'WasteOfTime', reward: 'Free Badge & 2 Extra Kroner', status: 'Active' },
-  { code: 'Gullible', reward: '300 Kroner', status: 'Active' },
-  { code: 'Submarine2026', reward: 'Free Flashbeacon', status: 'Active' },
-  { code: 'PressureLaunch', reward: '400 Kroner', status: 'Active' },
+  { code: 'MiserableLaunchOnceAgain', reward: '3 Revives', status: 'Active' },
+  { code: 'YOURTAKINGTOOLONG', reward: '500 Kroner', status: 'Active' },
+  { code: 'ModifiersAndMovies', reward: '2,500 Kroner (single-source)', status: 'Active' },
+  { code: 'wawa', reward: '1 Revive (single-source)', status: 'Active' },
+  { code: 'Gullible', reward: 'Joke code — takes away 300 Kroner', status: 'Active' },
+  { code: 'Sucker', reward: 'Joke code — takes away 300 Kroner', status: 'Active' },
+];
+
+export const EXPIRED_CODES: CodeItem[] = [
+  { code: 'WasteOfTime', reward: '2 Revives', status: 'Expired' },
+  { code: 'slederman', reward: '2 Revives', status: 'Expired' },
+  { code: 'SMILEYBOMB!!!', reward: '500 Kroner', status: 'Expired' },
+  { code: 'ApologyTour', reward: '750 Kroner', status: 'Expired' },
+  { code: '2YearsWasted', reward: '750 Kroner', status: 'Expired' },
+  { code: '200M', reward: '500 Kroner', status: 'Expired' },
+  { code: 'Christmas!!!', reward: '300 Kroner', status: 'Expired' },
+  { code: 'sorry', reward: '150 Kroner', status: 'Expired' },
+  { code: 'Raveyard', reward: '2 Revives', status: 'Expired' },
+  { code: 'Decay', reward: '1 Revive', status: 'Expired' },
+  { code: 'Fraud', reward: '2 Revives', status: 'Expired' },
 ];
 
 export const BADGES_DATA: BadgeItem[] = [
