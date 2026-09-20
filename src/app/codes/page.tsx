@@ -3,7 +3,7 @@ import { AlertTriangle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Pressure Codes — Kroner, Revives & Joke Codes',
-  description: 'Verified Pressure redeem codes. Includes the joke codes that take Kroner away, plus the full expired archive.',
+  description: 'Pressure redeem codes. Includes the joke codes that take Kroner away, plus the full expired archive.',
   alternates: {
     canonical: '/codes',
   },
