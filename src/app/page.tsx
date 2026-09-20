@@ -16,8 +16,8 @@ export default function HomePage() {
 
     author: {
       '@type': 'Person',
-      name: 'Dante Vance',
-      jobTitle: 'Abyssal Blacksite Containment Specialist',
+      name: 'Hlele',
+      jobTitle: 'Editor',
     },
     mainEntity: [
       {
@@ -69,7 +69,7 @@ export default function HomePage() {
             authorName="Hlele"
             role="Editor"
             experience="AI-assisted research, human-reviewed"
-            patchVersion="Update v1.8 Verified"
+            patchVersion="Update v1.8"
             editorialNote="All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs."
           />
         </div>

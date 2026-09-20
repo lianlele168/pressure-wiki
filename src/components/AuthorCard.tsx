@@ -13,9 +13,9 @@ export default function AuthorCard({
   authorName = 'Hlele',
   role = 'Editor',
   experience = 'AI-assisted research, human-reviewed',
-  patchVersion = 'Update v1.8 Verified',
+  patchVersion = 'Update v1.8',
   lastUpdated = '',
-  editorialNote = 'All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs.',
+  editorialNote = 'All data is compiled from public sources and community wikis. Any figure we could not confirm from a public source is labeled as unverified rather than estimated.',
 }: AuthorCardProps) {
   return (
     <div className="w-full rounded-2xl bg-slate-900/70 border border-red-900/30 p-4 sm:p-5 backdrop-blur-md my-6 text-left">
@@ -28,7 +28,7 @@ export default function AuthorCard({
             <div className="flex items-center space-x-2">
               <span className="font-bold text-white text-sm sm:text-base">{authorName}</span>
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-red-500/10 text-red-400 border border-red-500/20">
-                ✓ Containment Verified
+                Independent editorial
               </span>
             </div>
             <p className="text-xs text-slate-400 mt-0.5">
