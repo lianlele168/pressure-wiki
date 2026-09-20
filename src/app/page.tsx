@@ -70,7 +70,7 @@ export default function HomePage() {
             role="Editor"
             experience="AI-assisted research, human-reviewed"
             patchVersion="Update v1.8"
-            editorialNote="All entity rush timings, locker audio frequency thresholds, and Void-mass detection checks are recorded live inside Hadal Blacksite runs."
+            editorialNote="All entity timings and mechanic notes are compiled from public sources and community wikis. Any figure we could not confirm from a public source is labeled as unverified rather than estimated."
           />
         </div>
 
