@@ -1,9 +1,20 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Pressure Tier List — Community Meta Rankings',
+  description:
+    'Community meta rankings for Roblox Pressure: which strategies and loadouts the player base rates highest, by tier.',
+  alternates: {
+    canonical: '/tier-list',
+  },
+};
+
 export default function TierListPage() {
   return (
     <div className="space-y-6">
       <div className="border-b border-slate-800 pb-4">
         <h1 className="text-3xl font-black text-white">Pressure Meta Tier List</h1>
-        <p className="text-slate-400 text-sm mt-1">Official community meta rankings and tier ratings for .</p>
+        <p className="text-slate-400 text-sm mt-1">Official community meta rankings and tier ratings for Pressure.</p>
       </div>
 
       <div className="grid gap-4">

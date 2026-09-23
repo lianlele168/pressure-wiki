@@ -1,3 +1,14 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Pressure Badge Guide — All Badges & How to Get Them',
+  description:
+    'Every Pressure badge with its unlock condition, difficulty and reward, from First Steps to Centennial.',
+  alternates: {
+    canonical: '/badge-guide',
+  },
+};
+
 export default function BadgeGuidePage() {
   const badges = [
     { name: "First Steps", desc: "Complete Room 1 for the first time.", difficulty: "Easy", reward: "None" },
